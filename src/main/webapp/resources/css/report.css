@@ -1,0 +1,46 @@
+table {
+    margin: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px;
+    background: white;
+    border-collapse: collapse;
+    text-align: left;
+    width: 35%;
+}
+
+tr {
+    font-weight: normal;
+    padding: 10px 8px;
+}
+td {
+    color: #669;
+    padding: 9px 8px;
+}
+
+input, select {
+    color: #669;
+    border-color: #669;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.button {
+    background: #669;
+    color: #6699ff;
+    height: 40px;
+}
+
+.button:hover {
+    background: rgba(62, 62, 100, 0.99);
+}
+
+#message {
+    color: initial;
+    color: red;
+}
